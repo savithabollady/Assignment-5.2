@@ -1,6 +1,8 @@
 1. Obtain the elements of the union between two character vectors.
 vec1 = c(rownames(mtcars[1:15,]))
 vec2 = c(rownames(mtcars[10:32,]))
+
+
 ANSWER:
 union(vec1, vec2)
  [1] "1"  "2"  "3"  "4"  "5"  "6"  "7"  "8"  "9"  "10" "11" "12" "13" "14"
